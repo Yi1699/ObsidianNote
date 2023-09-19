@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "66246206acc1ea11",
+    "type": "split",
+    "children": [
+      {
+        "id": "37bdbd9a9f4908d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea0a4682159470c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cmake使用.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ab0230e2d0e5916",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "vi移动键位示意图.png"
+              }
+            }
+          },
+          {
+            "id": "82f2ff2240a258cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git Use.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2990489b8fb3d67e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cee0415cae73f405",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bc2c3f0b2ab1c3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c660e923f59b54ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "288db885bb159542",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dfa27ba3a950d9ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "c612181f37a8a9fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "caa2d5fcd39929a5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git Use.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f214c74b5e83d47",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git Use.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bc48c502a738fcec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f06bd83b88dd1c4f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git Use.md"
+              }
+            }
+          },
+          {
+            "id": "fe8eba00de4675a0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "82f2ff2240a258cc",
+  "lastOpenFiles": [
+    "Git Use.md",
+    "Cmake使用.md",
+    "Vi编辑器常用命令.md",
+    "vi移动键位示意图.png",
+    "vi移动键位命令.png",
+    "Graphics Note",
+    "未命名",
+    "2023-09-10.md",
+    "未命名 1.md",
+    "图形学Note"
+  ]
+}
