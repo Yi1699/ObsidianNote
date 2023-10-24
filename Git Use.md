@@ -21,6 +21,36 @@ git init
 git add xxxx
 //添加文件到仓库，可一次添加多个后一次性提交commit
 ```
+---
+##### git add 文件
+- 方法一 git add 添加多个文件，文件之间以空格隔开
+`git add file1 file2 file3`
+
+- 方法二 多次git add
+```
+git add file1
+git add file2
+git add file2
+```
+
+- 方法三 添加指定目录下的文件
+config目录下及子目录下所有文件，home目录下的所有.php文件
+```
+git config/*
+git home/*.php
+```
+
+- 方法四 git add . 添加所有的文件， 或者 git add --all 添加所有的文件
+```
+git add .
+git add --all
+```
+
+
+##### git add 文件夹
+`git add 文件夹名`
+
+---
 #### 2.提交到仓库
 ```
 git commmit -m "xxxxx"
