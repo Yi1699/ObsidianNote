@@ -95,7 +95,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git Use.md",
+                "file": "Graphics Note/Cmake构建命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git Use.md",
+                "file": "Graphics Note/Cmake构建命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git Use.md",
+                "file": "Graphics Note/Cmake构建命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git Use.md"
+                "file": "Graphics Note/Cmake构建命令.md"
               }
             }
           }
@@ -231,8 +231,11 @@
   },
   "active": "bc2e3c04ea0a1ae5",
   "lastOpenFiles": [
+    "CVLearning/PytorchLearning.md",
     "OSExperiment_1/README.md",
+    "Cmake使用.md",
     "Git Use.md",
+    "SSH连接.md",
     "OSExperiment_1/picture/Pasted image 20231022164717.png",
     "OSExperiment_1/picture/Pasted image 20231022164712.png",
     "OSExperiment_1/picture/Pasted image 20231022151248.png",
@@ -244,8 +247,6 @@
     "OSExperiment_1/picture/Pasted image 20231022115004.png",
     "OSExperiment_1/picture/Pasted image 20231022113114.png",
     "CVLearning/CNN/CNN.md",
-    "Cmake使用.md",
-    "SSH连接.md",
     "Vi编辑器常用命令.md",
     "Graphics Note/Rasterizer（光栅化）.md",
     "Graphics Note/投影变换.md",
