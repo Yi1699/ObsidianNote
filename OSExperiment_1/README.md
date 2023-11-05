@@ -75,11 +75,54 @@ return前对全局变量操作，仍然是在当前进程中，各自进程中�
 
 ### 1.2.2
 - 代码实现
-![[Pasted image 20231020205849.png]]![[Pasted image 20231020205921.png]]
+```c
+em_t s;
+int main()
+{
+        sem_init(&s, 0, 1);
+        pthread_t pid1, pid2;
+        int res;
+        res = pthread_create(&pid1, NULL, thread_add, NULL);
+        if(res){
+                printf("create failed!\n");
+                return 0;
+        }else printf("thread1 create success!\n");
+        res = pthread_create(&pid2, NULL, thread_sub, NULL);
+        if(res){
+                printf("create failed!\n");
+                return 0;
+        }else printf("thread2 create success!\n");
+        pthread_join(pid1, NULL);
+        pthread_join(pid2, NULL);
+        printf("value = %d\n", value);
+        return 0;
+}
+void* thread_add()
+{
+        for(int i = 0; i < 100000; i++)
+        {
+                sem_wait(&s);
+                value +=100;
+                sem_post(&s);
+        }
+        return 0;
+}
+void* thread_sub()
+{
+        for(int i = 0; i < 100000; i++)
+        {
+                sem_wait(&s);
+                value -= 100;
+                sem_post(&s);
+        }
+        return 0;
+}
+```
+
 - 输出结果
 ![[Pasted image 20231020205740.png]]
 - 结果解释
-程序使用了全局变量s作为信号量，定义p操作wait()函数，v操作signal()函数，实现线程的同步互斥。
+程序使用了全局变量s作为信号量，使用sem_wait()实现P操作，使用sem_post()实现V操作，在线程进入临界区修改共享变量时执行P操作，退出时执行V操作，这两个函数是原子语句。
 
 ### 1.2.3
 - 代码实现
