@@ -6,6 +6,13 @@ ssh-keygen -t rsa -C "1337936093@qq.com"
 创建好在user文件夹.ssh目录
 id_rsa.pub 即为key
 
+##### 设置用户名，邮箱
+```
+git config --global user.name "xxxx"
+
+git config --global user.email "xxxx"
+```
+
 ### 登录Github设置添加key
 
 ---
